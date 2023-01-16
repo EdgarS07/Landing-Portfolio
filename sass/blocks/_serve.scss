@@ -1,0 +1,36 @@
+.serve {
+    position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+  
+  &::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -50%;
+    bottom: 50%;
+    background-color:#F5F6FA ;
+    z-index: -1;
+  }
+}
+
+.serve__heading {
+margin-bottom: 45px;
+text-align: center;
+
+ .title {
+    margin-bottom: 10px;
+}
+}
+
+
+.serve__row {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+column-gap: 30px;
+}
+
+
+

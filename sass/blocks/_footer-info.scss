@@ -1,0 +1,32 @@
+.footer-info {
+display: flex;
+justify-content: space-between;
+column-gap: 85px;
+}
+
+.footer-info__card {
+
+}
+
+.footer-info__heading {
+margin-bottom: 18px;
+    
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+}
+
+.footer-info__list {
+    
+
+    li {
+        margin-bottom: 13px;
+     
+    }
+    a:hover {
+        transition: color 0.2s ease-in;
+        color: $accent-color-hover;
+    }
+
+   
+}
